@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a mi portfolio</h1>
+    </header>
+
+    <section id="projects">
+        <h2>Proyectos</h2>
+
+        <div class="project">
+            <div class="project-content">
+                <h3>Senator (Web de Reparto)</h3>
+                <p>Una web de reparto desarrollada como parte de mis prácticas en la Universidad de Deusto.<br>
+                    Utiliza el framework React y permite a los usuarios solicitar servicios de entrega de manera
+                    eficiente.</p>
+                <p><strong>Tecnologías utilizadas:</strong></p>
+                <ul>
+                    <li>React</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+                <p><strong>Características:</strong></p>
+                <ul>
+                    <li>Interfaz de usuario responsiva y moderna.</li>
+                    <li>Gestión de pedidos y seguimiento de entregas.</li>
+                    <li>Registro de usuarios y autenticación.</li>
+                </ul>
+             
+                
+             
+                <div class="gallery">
+                   
+                </div>
+            </div>
+        </div>
+
+        <div class="project">
+            <div class="project-content">
+                <h3>Tienda de Videojuegos (Aplicación de Escritorio)</h3>
+                <p>Una aplicación de escritorio desarrollada en Java que permite a los usuarios explorar y comprar
+                    videojuegos.<br>
+                    Utiliza una base de datos SQL y cuenta con un sistema de registro y login.</p>
+                <p><strong>Tecnologías utilizadas:</strong></p>
+                <ul>
+                    <li>Java 5 SE</li>
+                    <li>SQL</li>
+                    <li>JDBC</li>
+                    <li>JavaSwing</li>
+                </ul>
+                <p><strong>Características:</strong></p>
+                <ul>
+                    <li>Interfaz de usuario intuitiva y amigable.</li>
+                    <li>Registro y autenticación de usuarios con validación.</li>
+                    <li>Catálogo de videojuegos con búsqueda y filtrado.</li>
+                    <li>Carrito de compras y gestión de pedidos.</li>
+                </ul>
+                
+                
+             
+                <div class="gallery">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="project">
+            <div class="project-content">
+                <h3>Tienda de Videojuegos (Web)</h3>
+                <p>Una página dinámica que permite a los usuarios explorar y comprar videojuegos.<br>
+                    Incluye funciones de registro y login, permitiendo una experiencia de usuario personalizada.</p>
+                <p><strong>Tecnologías utilizadas:</strong></p>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>XML</li>
+                    <li>XSLT</li>
+                    <li>XAMPP</li>
+                    <li>BaseX</li>
+                    <li>XQuery</li>
+                    <li>PHP</li>
+                </ul>
+                <p><strong>Características:</strong></p>
+                <ul>
+                    <li>Navegación sencilla y accesible.</li>
+                    <li>Registro de usuario y login funcional.</li>
+                    <li>Catálogo de videojuegos con descripciones y precios.</li>
+                    <li>Carrito de compras para una experiencia de compra fluida.</li>
+                </ul>
+               
+                
+             
+                <div class="gallery">
+                    <img src="imgs/imgRetoPGR1.png" alt="Senator Imagen 1" class="thumbnail" onclick="openModal(this.src)">
+                    <img src="imgs/imgRetoPGR2.png" alt="Senator Imagen 2" class="thumbnail" onclick="openModal(this.src)">
+                    <img src="imgs/imgRetoPGR3.png" alt="Senator Imagen 3" class="thumbnail" onclick="openModal(this.src)">
+                    <img src="imgs/imgRetoPGR4.png" alt="Tienda Imagen 1" class="thumbnail" onclick="openModal(this.src)">
+                    <img src="imgs/imgRetoPGR5.png" alt="Tienda Imagen 2" class="thumbnail" onclick="openModal(this.src)">
+                    <img src="imgs/imgRetoPGR6.png" alt="Tienda Imagen 3" class="thumbnail" onclick="openModal(this.src)">
+                    <img src="imgs/imgRetoPGR7.png" alt="Web Imagen 1" class="thumbnail" onclick="openModal(this.src)">
+                    <img src="imgs/imgRetoPGR8.png" alt="Web Imagen 2" class="thumbnail" onclick="openModal(this.src)">
+                </div>
+            </div>
+        </div>
+
+        
+        <div id="imageModal" class="modal" onclick="closeModal()">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="modalImage">
+        </div>
+        <div class="project">
+            <h3>CFGS DAM</h3>
+            <p>Desarrollo de una aplicación multicapa y multiplataforma para el registro y autenticación de usuarios en la base de datos de Odoo.</p>
+            <p><strong>Organización:</strong> Grupos 3-4 personas | <strong>Duración:</strong> aprox 7 semanas (147h)</p>
+            <p><strong>El Reto:</strong> El reto consiste en el desarrollo de parte de una aplicación multicapa y multiplataforma que permita el registro de usuarios en la base de datos de Odoo, así como su posterior identificación, autenticación y acceso a dicha aplicación. La planificación y seguimiento del proyecto se realizará con un software de gestión empresarial (ERP-CRM).</p>
+            <p><strong>Descripción y requisitos:</strong></p>
+            <ul>
+                <li>Separación de la aplicación en capas de interfaz de usuario, lógica de negocio, acceso a datos y base de datos.</li>
+                <li>Uso de un repositorio público online de código fuente con sistema de control de versiones (GIT).</li>
+                <li>Programación de servicios y procesos: aplicación cliente/servidor con comunicación mediante sockets TCP.</li>
+                <li>Acceso a Datos: análisis y estudio de las tablas, campos y relaciones en Odoo.</li>
+                <li>Desarrollo de Interfaces: interfaz de usuario de tipo escritorio desarrollada con JavaFX y FXML.</li>
+                <li>Documentación del código mediante Javadoc.</li>
+            </ul>
+           
+        </div>
+
+
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Ekain </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
